@@ -21,6 +21,7 @@ class myDES():
         return encmsg
 
     def dec(self, ciphertext):
+
         des3 = DES3.new(self.key, DES3.MODE_CBC, self.iv)
         decmsg = des3.decrypt(ciphertext)
         return decmsg
