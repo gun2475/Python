@@ -1,6 +1,3 @@
-from sunau import AUDIO_FILE_ENCODING_LINEAR_16, AUDIO_FILE_ENCODING_LINEAR_24
-
-
 class Triangle:
     numberOfSides = 3
 
